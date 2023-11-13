@@ -1,1 +1,13 @@
+Python codes
 
+
+
+# visualiaztions
+plt.figure(figsize=(14, 10))
+sns.barplot(x=top_10_selling_publisher.index, y=top_10_selling_publisher.values, palette="viridis")
+plt.title('Top 10 Selling Publishers Globally', fontsize=16, fontweight='bold')
+plt.xlabel('Publisher', fontsize = 14, fontweight='bold')
+plt.ylabel('Global Sales (in millions)', fontsize=14, fontweight='bold')
+plt.xticks(fontsize=12, rotation=20, ha='right')
+plt.yticks(fontsize=14)
+plt.show()
