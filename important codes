@@ -11,3 +11,8 @@ plt.ylabel('Global Sales (in millions)', fontsize=14, fontweight='bold')
 plt.xticks(fontsize=12, rotation=20, ha='right')
 plt.yticks(fontsize=14)
 plt.show()
+
+
+
+
+# .idxmax(): This method is used to find the index of the first occurrence of the maximum value in the 'Global_Sales' column. It returns the index label.
