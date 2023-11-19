@@ -1,5 +1,5 @@
 Python codes
-
+https://matplotlib.org/stable/users/explain/colors/colormaps.html # the colormaps
 
 
 # visualiaztions
@@ -16,3 +16,4 @@ plt.show()
 
 
 # .idxmax(): This method is used to find the index of the first occurrence of the maximum value in the 'Global_Sales' column. It returns the index label.
+
